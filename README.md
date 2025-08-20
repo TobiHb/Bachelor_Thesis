@@ -6,6 +6,7 @@ This repository contains code, notebooks, and documentation related to the devel
 
 ## 📂 Repository Structure
 
+```text
 Bachelor_Thesis/
 ├── 00_FiNER139-TagMerging.ipynb
 ├── 00a_FiNER139-Text-Extraction.ipynb

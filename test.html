@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mein erstes JavaScript</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+  <h1 id="headline">Willkommen!</h1>
+
+  <button onclick="changeText()">Text ändern</button>
+  <button onclick="sayHello()">Hallo sagen</button>
+
+  <script>
+    function changeText() {
+      document.getElementById("headline").innerText = "Du hast geklickt!";
+    }
+
+    function sayHello() {
+      alert("Hallo Welt!");
+    }
+  </script>
+</body>
+</html>
